@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "JaceKorea"
+  navbar:
+    left:
+      - text: "Blog"
+        href: index.qmd
+      - text: "Python"
+        href: posts/python/index.qmd
+      - text: "Raspberry Pi"
+        href: posts/raspberry/index.qmd
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+    search: true
+  sidebar:
+    - title: "Python"
+      contents:
+        - posts/python/index.qmd
+    - title: "Raspberry Pi"
+      contents:
+        - posts/raspberry/index.qmd
+        - posts/raspberry/raspberry_pi_setup.qmd        
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    fig-align: center
+
+editor: visual

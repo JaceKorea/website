@@ -1,0 +1,80 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Python\n\n\n\n\n\n\nPython\n\n\nintroduction\n\n\n\n\n\n\n\n\n\nNov 16, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nRasberry pi\n\n\n\n\n\n\nRasberry pi\n\n\nintroduction\n\n\n\n\n\n\n\n\n\nNov 16, 2024\n\n\nBenKorea\n\n\n\n\n\n\n\n\n\n\n\n\nRaspberry Pi setup\n\n\n\n\n\n\nRasberry pi\n\n\nsetup\n\n\n\n\n\n\n\n\n\nNov 16, 2024\n\n\nBenKorea\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/python/index.html",
+    "href": "posts/python/index.html",
+    "title": "Python",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.",
+    "crumbs": [
+      "Python"
+    ]
+  },
+  {
+    "objectID": "posts/python/index.html#how-to-use-python-at-galaxy-tablet",
+    "href": "posts/python/index.html#how-to-use-python-at-galaxy-tablet",
+    "title": "Python",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.",
+    "crumbs": [
+      "Python"
+    ]
+  },
+  {
+    "objectID": "posts/raspberry/raspberry_pi_setup.html",
+    "href": "posts/raspberry/raspberry_pi_setup.html",
+    "title": "Raspberry Pi setup",
+    "section": "",
+    "text": "Figure 1 는 2024년 11월 16일 현재 우리집 Rassberry Pi에 사용중인 마이크로 SD (Secure Digital) 카드이다. 초기의 FAT16파일시스템을 사용하여 용량이 2 GB로 제한되었으나 이 제품은 FAT32파일시스템을 사용한 SDHC (Secure Digial High Capacity) 제품이다. Class라 부르며 기록을 할 수 있는 속도를 우측이 비어있는 원안에 표시를 한다. 우리집 것은 10이 있으며 이는 기록속도가 초당 10 MB라는 의미이다.\n요약하자면\n\nFAT32 파일시스템\n32 GB 저장용량\nClass 10 (= 초당 10 MB) 기록속도\n\n\n\n\n\n\n\nFigure 1: 마이크로 SD 카드",
+    "crumbs": [
+      "Raspberry Pi",
+      "Raspberry Pi setup"
+    ]
+  },
+  {
+    "objectID": "posts/raspberry/raspberry_pi_setup.html#마이크로-sd-카드",
+    "href": "posts/raspberry/raspberry_pi_setup.html#마이크로-sd-카드",
+    "title": "Raspberry Pi setup",
+    "section": "",
+    "text": "Figure 1 는 2024년 11월 16일 현재 우리집 Rassberry Pi에 사용중인 마이크로 SD (Secure Digital) 카드이다. 초기의 FAT16파일시스템을 사용하여 용량이 2 GB로 제한되었으나 이 제품은 FAT32파일시스템을 사용한 SDHC (Secure Digial High Capacity) 제품이다. Class라 부르며 기록을 할 수 있는 속도를 우측이 비어있는 원안에 표시를 한다. 우리집 것은 10이 있으며 이는 기록속도가 초당 10 MB라는 의미이다.\n요약하자면\n\nFAT32 파일시스템\n32 GB 저장용량\nClass 10 (= 초당 10 MB) 기록속도\n\n\n\n\n\n\n\nFigure 1: 마이크로 SD 카드",
+    "crumbs": [
+      "Raspberry Pi",
+      "Raspberry Pi setup"
+    ]
+  },
+  {
+    "objectID": "posts/raspberry/raspberry_pi_setup.html#라즈베리파이-os-설치",
+    "href": "posts/raspberry/raspberry_pi_setup.html#라즈베리파이-os-설치",
+    "title": "Raspberry Pi setup",
+    "section": "라즈베리파이 OS 설치",
+    "text": "라즈베리파이 OS 설치\n\n설치파일 다운로드\n공식사이트에서 라즈베리파이 설치 이미지파일을 다운로드 받는다 (https://www.raspberrypi.com/software/). 2024년 11월 16일 현재 원도우용 최신 설치이미지파일은 imager_1.8.5.exe이다.\n\n\n설치파일 실행\n이 버전의 이미지 설치파일은 일단 실행한 후 운영체제를 선택한 후 - CTRL + SHIFT + X 키를 입력하여 Advanced options로 진행 - [X] Enable SSH checkbox를 선택하면 - pi user에 대한 password 설정을 해야 함. raspberry로 진행한다면 이후 변경해야 함. - [x] Wifi configure 이후 SSH로 접속할 수 있게 된다.\n설정을 위해서는 SSH를 enable로 설정 을 사용하여 SSH 설정이 미리 가능하다. - 다운로드 받은 설치파일을 실행하면 아래와 같은 화면이 나타난다.",
+    "crumbs": [
+      "Raspberry Pi",
+      "Raspberry Pi setup"
+    ]
+  },
+  {
+    "objectID": "posts/raspberry/raspberry_pi_setup.html#raspberry-pi-setup",
+    "href": "posts/raspberry/raspberry_pi_setup.html#raspberry-pi-setup",
+    "title": "Raspberry Pi setup",
+    "section": "Raspberry Pi setup",
+    "text": "Raspberry Pi setup\n\n설치파일 다운로드\n공식사이트에서 라즈베리파이 설치 이미지파일을 다운로드 받는다 (https://www.raspberrypi.com/software/). 2024년 11월 16일 현재 원도우용 최신 설치이미지파일은 imager_1.8.5.exe이다.\n\n\nSD카드에 OS설치\n이미지설치파일을 실행하여\n\n운영체제를 선택하고…\nCustomizing OS에서 아래의 사항들을 선택하고 진행한다.\n\nEnable SSH checkbox 선택하여 진행하면\n\npi user에 대한 password 설정해야 하고\n\n-   password를 default `raspberry`로 진행한다면 이후 변경해야 함\nConfigure Wifi 선택하여 진행하면\n\nSSID: ??_????????????\nPassword: ??????????\n\n\n설치가 완료가 완료되면 사용 가능한 상태가 된다.\n\n\n\nSSH 접속\n\nAndroid에서는 SSH 클라이언트를 설치하여 접속한다. 대표적인 SSH 클라이언트는 다음과 같다.\n\nTermius: Android에서도 사용 가능하며 플랫폼 간 동기화 지원.\nJuiceSSH: 인기 있는 Android SSH 클라이언트, 무료 및 유료 플랜 제공.\nConnectBot: 오픈소스이며 가벼운 SSH 클라이언트.\n\nRaspberry Pi의 IP를 알기위해 Android 용 Network Discovery가 추천된다.\nWindows에서는 PuTTY를 사용한다.\n\n\n\nVNC 접속\n\nsudo raspi-config\n\nVNC enable을 선택하여 활성화한다. 해상도 설정\n안드로이드용 AVNC를 설치하여 접속",
+    "crumbs": [
+      "Raspberry Pi",
+      "Raspberry Pi setup"
+    ]
+  }
+]

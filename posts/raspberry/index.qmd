@@ -1,0 +1,9 @@
+---
+title: "Rasberry pi"
+author: "BenKorea"
+date: "2024-11-16"
+categories: [Rasberry pi, introduction]
+image: "image.jpg"
+---
+
+## How to use Rasberry pi at Galaxy tablet

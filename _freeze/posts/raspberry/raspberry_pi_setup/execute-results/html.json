@@ -1,0 +1,15 @@
+{
+  "hash": "f46637e277854d48db301142a8c9b9fc",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Raspberry Pi setup\"\nauthor: \"BenKorea\"\ndate: \"2024-11-16\"\ncategories: [Rasberry pi, setup]\n---\n\n\n\n\n## 마이크로 SD 카드\n\n@fig-microSDCard 는 2024년 11월 16일 현재 우리집 Rassberry Pi에 사용중인 마이크로 SD (Secure Digital) 카드이다. 초기의 FAT16파일시스템을 사용하여 용량이 2 GB로 제한되었으나 이 제품은 FAT32파일시스템을 사용한 SDHC (Secure Digial High Capacity) 제품이다. Class라 부르며 기록을 할 수 있는 속도를 우측이 비어있는 원안에 표시를 한다. 우리집 것은 10이 있으며 이는 기록속도가 초당 10 MB라는 의미이다.\n\n요약하자면\n\n-   FAT32 파일시스템\n\n-   32 GB 저장용량\n\n-   Class 10 (= 초당 10 MB) 기록속도\n\n![마이크로 SD 카드](image/microSDCard.jpg){#fig-microSDCard width=\"200\"}\n\n## Raspberry Pi setup\n\n### 설치파일 다운로드\n\n공식사이트에서 라즈베리파이 설치 이미지파일을 다운로드 받는다 (<https://www.raspberrypi.com/software/><a>). 2024년 11월 16일 현재 원도우용 최신 설치이미지파일은 `imager_1.8.5.exe`이다.\n\n### SD카드에 OS설치\n\n이미지설치파일을 실행하여\n\n-   운영체제를 선택하고...\n\n-   Customizing OS에서 아래의 사항들을 선택하고 진행한다.\n\n    -   \\[x\\] Enable SSH checkbox 선택하여 진행하면\n\n        -    pi user에 대한 password 설정해야 하고\n\n            -   password를 default `raspberry`로 진행한다면 이후 변경해야 함\n\n    -   \\[x\\] Configure Wifi 선택하여 진행하면\n\n        -   SSID: ??\\_????????????\n\n        -   Password: ??????????\n        \n-    설치가 완료가 완료되면 사용 가능한 상태가 된다.\n\n\n### SSH 접속\n\n-   Android에서는 SSH 클라이언트를 설치하여 접속한다. 대표적인 SSH 클라이언트는 다음과 같다.\n    -   Termius: Android에서도 사용 가능하며 플랫폼 간 동기화 지원.\n    -   JuiceSSH: 인기 있는 Android SSH 클라이언트, 무료 및 유료 플랜 제공.\n    -   ConnectBot: 오픈소스이며 가벼운 SSH 클라이언트.\n-   Raspberry Pi의 IP를 알기위해 Android 용 Network Discovery가 추천된다.\n-   Windows에서는 PuTTY를 사용한다.\n\n### VNC 접속\n\n\n\n\n::: {.cell file_name='vnc.sh'}\n\n```{.r .cell-code}\nsudo raspi-config\n```\n:::\n\n\n\nVNC enable을 선택하여 활성화한다.\n해상도 설정\n\n안드로이드용 AVNC를 설치하여 접속\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
